@@ -1,0 +1,57 @@
+{
+  "store.home": {
+    "blocks": [
+      "promo-banner",
+      "banners#primary",
+      "gender-panel"
+    ]
+  },
+  "promo-banner": {
+    "props": {
+      "title": "Welcome to VTEX Store Framework",
+      "btnText": "Learn More",
+      "btnLink": "/learn-more",
+      "btnPosition": "left",
+      "promotions": []
+    }
+  },
+  "banners#primary": {
+    "props": {
+      "title": "Featured Banners",
+      "description": "Check out our latest promotions and offers",
+      "banners": []
+    }
+  },
+  "gender-panel": {
+    "props": {},
+    "children": [
+      "categorias",
+      "banners-secundarios"
+    ]
+  },
+  "categorias": {
+    "props": {
+      "title": "Shop by Category",
+      "categorias": [
+        {
+          "nombre": "Zapatillas",
+          "imagen": "https://via.placeholder.com/100",
+          "genero": "male"
+        },
+        {
+          "nombre": "Vestidos",
+          "imagen": "https://via.placeholder.com/100",
+          "genero": "female"
+        }
+      ]
+    }
+  },
+  "banners-secundarios": {
+    "props": {
+      "title": "Featured Banners",
+      "description": "Check out our latest promotions and offers",
+      "banners": []
+    }
+  }
+
+}

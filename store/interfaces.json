@@ -1,0 +1,22 @@
+{
+  "promo-banner": {
+    "component": "PromoBanner"
+  },
+  "banners": {
+    "component": "Banners"
+  },
+  "gender-panel": {
+    "component": "GenderPanel",
+    "allowed": [
+      "categorias",
+      "banners-secundarios"
+    ],
+    "composition": "children"
+  },
+  "categorias": {
+    "component": "Categorias"
+  },
+  "banners-secundarios": {
+    "component": "SecondaryBanners"
+  }
+}
